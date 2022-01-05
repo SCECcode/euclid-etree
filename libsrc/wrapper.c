@@ -411,7 +411,7 @@ void Listen(int s, int backlog)
         unix_error("Listen error");
 }
 
-int Accept(int s, struct sockaddr *addr, socklen_t *addrlen) 
+int Accept(int s, struct sockaddr *addr, int *addrlen) 
 {
     int rc;
 
