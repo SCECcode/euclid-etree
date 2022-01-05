@@ -168,8 +168,7 @@ void Sigdelset(sigset_t *set, int signum)
 int Sigismember(const sigset_t *set, int signum)
 {
     int rc;
-    if ((rc = sigismember(set, signum)) < 0)
-        unix_error("Sigismember error");
+    rc = sigismember(set, signum);
     return rc;
 }
 
@@ -411,7 +410,7 @@ void Listen(int s, int backlog)
         unix_error("Listen error");
 }
 
-int Accept(int s, struct sockaddr *addr, int *addrlen) 
+int Accept(int s, struct sockaddr *addr, socklen_t *addrlen) 
 {
     int rc;
 
