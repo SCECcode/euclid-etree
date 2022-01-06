@@ -20,6 +20,14 @@ AC_PROG_LIBTOOL
 AC_PROG_INSTALL
 
 AC_CONFIG_FILES([Makefile
-                 libsrc/Makefile
+                libsrc/Makefile
+		examples/Makefile
+		tools/Makefile
+		output4d/Makefile
+		cvm/Makefile
 		 ])
+
 AC_OUTPUT
+
+
+dnl End of file

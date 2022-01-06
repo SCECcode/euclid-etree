@@ -25,6 +25,8 @@ labase.2        An extremely coarsen grained layer specification for LA Basin
 labase.domain   The origin and size of the LA basin
 
 Version3.0.tar.gz  SCEC Model version 3.0 (a Fortran program)
+                   Note: This appears to refer to SCEC CVM-S v3.0
+
 
 ####################################
 1. Generating the CVM etree database
