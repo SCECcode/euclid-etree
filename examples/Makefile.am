@@ -24,7 +24,7 @@ query_LDADD = $(top_builddir)/libsrc/libetree.la -lm
 refine_SOURCES = refine.c traverse.c
 refine_LDADD = $(top_builddir)/libsrc/libetree.la -lm
 
-noinst_DATA = tree.txt
+dist_noinst_DATA = tree.txt
 
 check: tiny txt2etree etree2txt refine query
 	./tiny tree.e
