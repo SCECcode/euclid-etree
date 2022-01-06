@@ -20,7 +20,7 @@ querycvm_SOURCES = querycvm.c
 querycvm_LDADD = $(top_builddir)/libsrc/libetree.la -lm
 
 noinst_HEADERS = domain.h
-noinst_DATA = labase.2 labase.domain labase.layers
+dist_noinst_DATA = labase.2 labase.domain labase.layers
 
 
 
