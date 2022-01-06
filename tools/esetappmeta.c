@@ -34,7 +34,7 @@
 #include <assert.h>
 #include <errno.h>
 #include <limits.h>
-#include <syslimits.h>
+/*#include <sys/limits.h>*/
 
 /*
  * static global variables to store program options
