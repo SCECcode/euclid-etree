@@ -2,7 +2,9 @@
 
 * Improve portability of autoools build by using libtool to build the
 	etree library.
-* Limit build to etree library.
+* Use Makefile.am (Automake) files to build programs in the other
+	directories.
+* Can build from outside the source tree.
 
 ## Version 3.1.3
 
