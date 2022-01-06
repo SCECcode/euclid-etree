@@ -14,6 +14,7 @@
 
 /* $begin query */
 #include <stdio.h>
+#include <stdlib.h>
 #include "etree.h"
 
 typedef struct value_t {
