@@ -18,8 +18,6 @@ with further modifications by
     Geologic Hazards Science Center
     U.S. Geological Survey
 
-The autotools build will only build the etree library.
-
 
 #########################
 0. Content of the package
