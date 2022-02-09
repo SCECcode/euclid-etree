@@ -12,7 +12,7 @@ dnl   * Limit build to libsrc.
 AC_PREREQ(2.59)
 AC_INIT([euclid], [3.1.4], [baagaard@usgs.gov])
 AC_CONFIG_AUX_DIR([./aux-config])
-AM_INIT_AUTOMAKE(tar-pax)
+AM_INIT_AUTOMAKE([foreign tar-pax])
 
 dnl Checks for programs.
 AC_PROG_CC
